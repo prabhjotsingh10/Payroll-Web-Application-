@@ -1,19 +1,16 @@
-table
-{   font-size: 1.2em;
-    width: auto;
-    text-align: center;
-}
 
 input{
     padding: 0.3em;
 }
 
-.container form{
-    text-align: center;
+.container{
+    /* text-align: center;
     border: 1px solid black;
     padding: auto;
     margin-top: 5em;
-    
+     */
+     display: grid;
+     grid-template-columns: 1fr 1fr;
 }
 
 body{
@@ -21,6 +18,13 @@ body{
     background-size: cover;
     color: darkgreen;
     text-align: center;
+}
+
+input{
+    width: auto;
+    margin: auto;
+    padding: auto;
+    display: inline-block;
 }
 
 button{
@@ -38,3 +42,6 @@ button:hover{
     color: white;
 }
 
+.emp_details,.payroll_details{
+    border: 2px solid black
+}
