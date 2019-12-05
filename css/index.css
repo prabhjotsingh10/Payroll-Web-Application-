@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
+html{
+    font-family: 'Source Serif Pro', serif;
+}
+
 body{
     background-image: url("/img/background.jpg");
     background-size: cover;
@@ -69,7 +75,7 @@ button:hover{
     }    
 
     #displayed_content {
-        
+
         display: block;
         margin-bottom: 1em;
     }
