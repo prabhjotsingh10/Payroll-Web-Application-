@@ -8,57 +8,76 @@
     <title>Assignment 2</title>
 </head>
 <body>
-    <h1>ABC COLLEGE</h1>
+    <h1 class="company_name">ABC COLLEGE</h1>
     
     <div class="container">
         <div class="emp_details">
+            <h1>EMPLOYEE DETAILS</h1>
             <form>
-                <label id="name">Enter the name &nbsp;</label>
+                <label>Enter the name &nbsp;</label>
                 <input type="text" value="" id="name" placeholder="Enter the name">      
                 
                 
-                <label id="emp_number">Enter the employee number &nbsp;</label>
+                <label>Enter the employee number &nbsp;</label>
                 <input type="text" value="" id="number" placeholder="Enter the number">
                 
                 
-                <label id="department">Enter the Department &nbsp;</label>
+                <label>Enter the Department &nbsp;</label>
                 <input type="text" value="" id="department" placeholder="Enter the department">
                 
                 
-                <label id="hours">Enter the number of hours &nbsp;</label>
+                <label>Enter the number of hours &nbsp;</label>
                 <input type="text" value="" id="work_hours" placeholder="Enter the no. of hours"><br>
                 
                 
-                <label id="code">Enter the employee type code &nbsp;</label>
+                <label>Enter the employee type code &nbsp;</label>
                 <input type="text" value="" id="emp_code" placeholder="Enter the employee code">
                 
                 
-                <button type="button" value="" id="type">Get Your Bill Here !</button>
+                <button type="button" value="" id="type">Get Your Payslip Here !</button>
             </form>
         </div>
         
         <div class="payroll_details">
-            
+            <h1>GENERATED PAY SLIP</h1>
             <form>
-                <label id="name">Employee Name &nbsp;</label>
-                <input type="text" value="" id="name" placeholder="Enter the name">      
+                <section id="displayed_content">
 
+                    <div class="emp_details1">
 
-                <label id="emp_number">Employee number &nbsp;</label>
-                <input type="text" value="" id="number" placeholder="Enter the number">
+                    <label>Employee Name &nbsp;</label>
+                    <input type="text" value="" id="displayed_name" placeholder="">      
 
+                    <label>Employee number &nbsp;</label>
+                    <input type="text" value="" id="displayed_number" placeholder="">
 
-                <label id="department">Employee Department &nbsp;</label>
-                <input type="text" value="" id="department" placeholder="Enter the department">
+                    <label>Qualification Code &nbsp;</label>
+                    <input type="text" value="" id="displayed_qualif_code" placeholder="">
 
+                    <label>Employee Department &nbsp;</label>
+                    <input type="text" value="" id="displayed_department" placeholder="">
 
-                <label id="hours">Number of hours worked &nbsp;</label>
-                <input type="text" value="" id="work_hours" placeholder="Enter the no. of hours"><br>
+                    <label>Number of hours worked &nbsp;</label>
+                    <input type="text" value="" id="displayed_work_hours" placeholder=""><br>
+                    
+                    </div>
 
+                    <div class="emp_details2">
 
-                <label id="code">Employee type code &nbsp;</label>
-                <input type="text" value="" id="emp_code" placeholder="Enter the employee code">
+                    <label> Gross Salary &nbsp;</label>
+                    <input type="text" value="" id="displayed_gross_sal" placeholder="">
 
+                    <label>Income Tax Deduction &nbsp;</label>
+                    <input type="text" value="" id="displayed_income_tax" placeholder="">
+
+                    <label>Health Subcharge Fee &nbsp;</label>
+                    <input type="text" value="" id="displayed_health_fee" placeholder="">
+
+                    <label>Total In-hand Salary &nbsp;</label>
+                    <input type="text" value="" id="displayed_total_sal" placeholder="">
+
+                    </div>
+                </section>
             </form>
 
         </div>
